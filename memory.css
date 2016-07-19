@@ -1,0 +1,257 @@
+body {
+	font-family: Verdana, sans-seirf;
+	color: white;
+}
+
+@font-face {
+	font-family: Arcade;
+	src: url('arcade.ttf');
+}
+
+#all {
+	width: 420px;
+	height: auto;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	color: white;
+	
+}
+
+h1 {
+	font-family: Arcade, Verdana, sans-serif;
+}
+
+h3 {
+	position: absolute;
+	top: 20px;
+}
+
+#card1 {
+	left: -120px;
+}
+
+#card2 {
+	left: 550px;
+}
+
+.player {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 2px;
+	
+	-webkit-border-radius: 2px;
+}
+
+#player1 {
+	left: -350px;
+	background-color:  #f44336;
+}
+
+#player2 {
+	left: 475px;
+	text-align: right;
+	background-color: #52616D;
+}
+
+.player > img {
+	position: absolute;
+	bottom: -150px;
+	left: 50%;
+	transform: translate( -50%, 0px);
+	height: 100px;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+	width: 100px;
+	height: auto;
+	position: absolute;
+	z-index: 2;
+}
+
+}
+
+#n1 {
+	left: 10px;
+}
+
+#n2 {
+	left: 120px;
+}
+
+#n3 {
+	left: 230px;
+}
+
+#n4 {
+	left: 340px;
+}
+
+#n5 {
+	top: 170px;
+	left: 10px;
+}
+
+#n6 {
+	top: 170px;
+	left: 120px;
+}
+
+#n7 {
+	top: 170px;
+	left: 230px;
+}
+
+#n8 {
+	top: 170px;
+	left: 340px;
+}
+
+#n9 {
+	top: 340px;
+	left: 10px;
+}
+
+#n10 {
+	top: 340px;
+	left: 120px;
+}
+
+#n11 {
+	top: 340px;
+	left: 230px;
+}
+
+#n12 {
+	top: 340px;
+	left: 340px;
+}
+
+#n13 {
+	top: 510px;
+	left: 10px;
+}
+
+#n14 {
+	top: 510px;
+	left: 120px;
+}
+
+#n15 {
+	top: 510px;
+	left: 230px;
+}
+
+#n16 {
+	top: 510px;
+	left: 340px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------PRECONFIG--------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#settings, #close, #avicii, #close2 {
+	width: auto;
+	height: 30px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#close2 {
+	display: none;
+	left: 10px;
+	top: 45px;
+}
+
+#close {
+	display: none;
+}
+
+#avicii {
+	left: 10px;
+	top: 45px;
+	width: 33px;
+	height: auto;
+}
+
+#menu {
+	height: 30px;
+	width: auto;
+	left: 15px;
+	top: 10px;
+	position: fixed;
+	cursor: pointer;
+}
+
+.menu {
+	background-color: white;
+	color: black;
+}
+
+#opensettings {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	border: 2px solid #009688;
+	padding: 10px;
+	display: none;
+	background-color: white;
+	z-index: 2;
+	max-height: 700px;
+	max-width: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#openpreconfig {
+	left: 10px;
+	position: fixed;
+	top: 45px;
+	border: 2px solid #009688;
+	padding: 10px;
+	display: none;
+	max-height: 700px;
+	max-width: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: white;
+	z-index: 2;
+}
+
+p:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+}
+
+#shortcut {
+	width: 5px;
+	height: 5px;
+	border-radius: 100%;
+	background-color: #dddddd;
+	
+	-webkit-border-radius: 100%;
+}
+
+svg {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+polyline {
+	stroke: black;
+	stroke-width: 10px;
+	stroke-linecap: round;
+}

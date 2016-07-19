@@ -1,0 +1,146 @@
+* {
+	font-family: Verdana, sans-serif;
+}
+
+@font-face {
+	font-family: Arcade;
+	src: url('arcade.ttf');
+}
+
+h1 {
+	font-family: Arcade, Verdana, sans-serif;
+}
+
+h1, h3 {
+	color: #009688;
+}
+
+table {
+    border-collapse: collapse;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+td {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+	z-index: 1;
+}
+
+#settings, #close, #avicii, #close2 {
+	width: auto;
+	height: 30px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#close2 {
+	display: none;
+	left: 10px;
+	top: 45px;
+	z-index: 3;
+}
+
+#close {
+	display: none;
+	z-index: 3;
+}
+
+#avicii {
+	left: 10px;
+	top: 45px;
+	width: 33px;
+	height: auto;
+}
+
+#menu {
+	height: 30px;
+	width: auto;
+	left: 15px;
+	top: 10px;
+	position: fixed;
+	cursor: pointer;
+}
+
+#opensettings {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	border: 2px solid #009688;
+	padding: 10px;
+	display: none;
+	background-color: white;
+	z-index: 2;
+	max-height: 700px;
+	max-width: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#openpreconfig {
+	left: 10px;
+	position: fixed;
+	top: 45px;
+	border: 2px solid #009688;
+	padding: 10px;
+	display: none;
+	max-height: 700px;
+	max-width: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: white;
+	z-index: 2;
+}
+
+p:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+}
+
+#shortcut {
+	width: 5px;
+	height: 5px;
+	border-radius: 100%;
+	background-color: #dddddd;
+	
+	-webkit-border-radius: 100%;
+}
+
+svg {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+polyline {
+	stroke: black;
+	stroke-width: 10px;
+	stroke-linecap: round;
+}
+
+#audioon, #audiooff {
+	position: fixed;
+	width: 25px;
+	height: auto;
+	top: 45px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#audiooff {
+	display: none;
+}

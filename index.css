@@ -1,0 +1,121 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+@font-face {
+	font-family: Arcade;
+	src: url('arcade.ttf');
+}
+
+h1 {
+   text-align: center;
+   font-family: Arcade, Verdana, sans-serif;
+}
+
+table{
+   border-collapse: collapse; 
+   margin: auto;
+}
+
+td {
+   text-align: center;
+   vertical-align: middle;
+   width: 250px;
+   height: 300px;
+}
+
+.game {
+   width: 200px;
+   height: 250px; 
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin: auto;
+   cursor: pointer;
+}
+
+#tictactoe:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 150, 136, 0.4);
+	box-shadow: 0 6px 20px 0 rgba(0, 150, 136, 0.19);
+}
+
+#memory:hover {
+	box-shadow: 0 4px 8px 0 rgba(244, 67, 54, 0.4);
+	box-shadow: 0 6px 20px 0 rgba(244, 67, 54, 0.19);
+}
+
+#fingers:hover {
+	box-shadow: 0 4px 8px 0 rgba(63, 81, 181, 0.4);
+	box-shadow: 0 6px 20px 0 rgba(63, 81, 181, 0.19);
+}
+
+#connect4:hover {
+	box-shadow: 0 4px 8px 0 rgba(255, 193, 7, 0.4);
+	box-shadow: 0 6px 20px 0 rgba(255, 193, 7, 0.19);
+}
+
+.gimg {
+	width: 200px;
+	height: 200px;
+}
+
+.gtext {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+.descript {
+	width: 600px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+	z-index: 1;
+	border-radius: 3px;
+	display: none;
+	
+	-webkit-border-radius: 3px;
+}
+
+.idescript {
+	float: left;
+	margin-top: 20px;
+}
+
+.tdescript {
+	margin-left: 260px;
+}
+
+button {
+	background-color: #009688;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-family: Verdana, sans-serif;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;
+	
+	-webkit-border-radius: 2px;
+}
+
+button:hover {
+	background-color: #00b3a1;
+}
+
+.close {
+	width: 25px;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}

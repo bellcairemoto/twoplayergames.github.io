@@ -1,0 +1,193 @@
+* {
+	z-index: 3;
+	font-family: Verdana, sans-serif;
+}
+
+@font-face {
+	font-family: Arcade;
+	src: url('arcade.ttf');
+}
+
+h1 {
+	font-family: Arcade, Verdana, sans-serif;
+}
+
+h1, h3 {
+	color: #009688;
+}
+
+body {
+	zoom : 75%;
+}
+
+table {
+	border-collapse: collapse;
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: -35px;
+	left: 57px;
+}
+
+#board {
+	position: fixed;
+	bottom: 0px;
+}
+
+td {
+	border: 2px solid rgba( 0, 0, 0, 0);
+	width: 96px;
+	height: 96px;
+}
+
+td:nth-child(7) {
+	background-color: yellow;
+}
+
+.column {
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	bottom: 628px;
+	display: none;
+	border-radius: 100%;
+	
+	-webkit-border-radius: 100%;
+}
+
+#c1{left: 18px;} #c2{left:118px;} #c3{left:218px;} #c4{left:318px;} #c5{left:418px;} #c6{left:518px;} #c7{left:618px;}
+
+.move {
+	transform: translate(0px, 0px) rotate(90deg);
+	height: 90px;
+	width: 90px;
+	animation-name: move;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	z-index: 1;
+	border-radius: 100%;
+	
+	-webkit-animation-name: move;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+	-webkit-border-radius: 100%;
+	-moz-animation-name: move;
+	-moz-animation-duration: 0.5s;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-timing-function: linear;
+}
+
+@keyframes move{
+	from {transform: translate(800px, 0px);}
+	to {transform: translate(0px, 0px);}
+}
+
+.cross {
+	position: absolute;
+	width: 95px;
+	height: auto;
+	z-index: 5;
+}
+
+#load {
+	display: table-row;
+	width: 750px;
+	height: 700px;
+	background-color: rgba( 250, 250, 250, 0.5);
+	position: absolute;
+	bottom: 0px;
+	z-index: 10;
+	font-family: Verdana, sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+#all {
+	width: 750px;
+	height: 700px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------PRECONFIG------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#settings, #close, #avicii, #close2 {
+	width: auto;
+	height: 30px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#close2 {
+	display: none;
+	left: 10px;
+	top: 45px;
+	z-index: 100;
+}
+
+#close {
+	display: none;
+	z-index: 100;
+}
+
+#avicii {
+	left: 10px;
+	top: 45px;
+	width: 33px;
+	height: auto;
+}
+
+#menu {
+	height: 30px;
+	width: auto;
+	left: 15px;
+	top: 10px;
+	position: fixed;
+	cursor: pointer;
+}
+
+#opensettings {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	border: 2px solid #009688;
+	padding: 10px;
+	display: none;
+	background-color: white;
+	z-index: 2;
+	max-height: 700px;
+	max-width: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#openpreconfig {
+	left: 10px;
+	position: fixed;
+	top: 45px;
+	border: 2px solid #009688;
+	padding: 10px;
+	display: none;
+	max-height: 700px;
+	max-width: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: white;
+	z-index: 2;
+}
+
+p:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+}

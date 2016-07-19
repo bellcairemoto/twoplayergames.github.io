@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<title>Memory</title>
+		<meta charset="utf-8"/>
+		<meta name="theme-color" content="#f44336"/>
+		<link type="text/css" rel="stylesheet" href="memory.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script> 
+		<script src="memory.js"></script>
+	</head>
+	
+	<body>
+		<div id="all">
+			<img id="n1" class="banana" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n2" class="poma" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n3" class="raim" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n4" class="llima" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			
+			<img id="n5" class="pomes" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n6" class="cireres" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n7" class="sindria" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n8" class="kiwi" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			
+			<img id="n9" class="banana" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n10" class="poma" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n11" class="raim" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n12" class="llima" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			
+			<img id="n13" class="pomes" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n14" class="cireres" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n15" class="sindria" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			<img id="n16" class="kiwi" src="http://www.magicbravo.es/WebRoot/Store/Shops/magicbravo/4C78/A38C/0123/5F76/6BAB/55EE/0960/4C62/CARTA_JUMBO_BICYCLE_52_EN_1_DORSO_AZUL_-_DORSO.jpg"/>
+			
+			<div id="player1" class="player"><h1>Player 1</h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Red-circle.svg/1024px-Red-circle.svg.png"/></div>
+			<div id="player2" class="player"><h1>Player 2</h1><img src="http://vignette4.wikia.nocookie.net/inciclopedia/images/a/a5/X.png/revision/latest?cb=20091125204252"/></div>
+			<h3 id="card1"></h3>
+			<h3 id="card2"></h3>
+			</div>
+			
+			<!-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+			----------------------------------------------------PRECONFIG------------------------------------------------------------------------------------------------------------------------------------
+			------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+			
+			<img id="settings" src="https://cdn3.iconfinder.com/data/icons/simple-files-1/128/Settings-128.png"/>
+		<img id="close" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		
+		<div class="menu" id="opensettings">
+			<h1>Settings</h1>
+				<h4>Custom names</h4>
+					<p id="na1">Player1 name</p>
+					<p id="na2">Player2 name</p>
+					<hr>
+				<h4>Custom imgs</h4>
+					<p id="i1">Player1 img</p>
+					<p id="i2">Player2 img</p>
+					<hr>
+				<h4>Custom Colors</h4>
+					<p id="col">Lines color</h4>
+					<hr>
+				<h4>Preconfig</h4>
+					<p class="addconfig">Add Preconfig</p>
+					<p class="preconfig">Open Preconfig menu </p>
+		</div>
+		
+		<img id="avicii" class="preconfig" src="http://i1348.photobucket.com/albums/p737/therapismylife/AviciiLogo_zpsf62616e0.png"/>
+		<img id="close2" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		<div class="menu" id="openpreconfig">
+			<h1>Preconfig<h1>
+				<h4>Add preconfig</h4>
+					<p class="addconfig">Wich's your preconfig?</p>
+					<hr>
+				<h4>Actual preconfig</h4>
+					<p class="getconfig">Get your preconfig</p>
+		</div>
+		
+		<svg height="620" width="620">
+			<polyline points="0 0, 0 0"/>
+		</svg>
+		
+		<div id="shortcut"></div>
+		<a href="index.html"><img id="menu" src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png"/></a>
+	</body>
+</html>

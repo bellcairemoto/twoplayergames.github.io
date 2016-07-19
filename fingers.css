@@ -1,0 +1,167 @@
+#all {
+	top: 100px;
+	width: 604px;
+	height: 610px;
+	border: 2px solid black;
+	position: fixed;
+	left: 300px;
+}
+
+#notallowed {
+	position: fixed;
+	background: black;
+	opacity: 0.3;
+	width: 606px;
+	height: 305px;
+	top: 100px;
+	cursor: not-allowed;
+	left: 300px;
+}
+
+img {
+	height: 300px;
+	width: auto;
+	cursor: pointer;
+}
+
+.up {
+	position: absolute;
+	top: 0px;
+	transform: rotate(180deg);
+	background: rgba( 255, 0, 0, 0.5);
+}
+
+.down {
+	position: absolute;
+	bottom: 0px;
+	background: rgba( 0, 0, 255, 0.5);
+}
+
+#inst {
+	position: fixed;
+	top: 0px;
+	width: 604px;
+	height: 90px;
+	border: 2px solid black;
+	text-align: center;
+	left: 300px;
+}
+
+h1 {
+	font-family:Arcade;
+}
+
+@font-face {
+	font-family: Arcade;
+	src: url('arcade.ttf')
+}
+
+#user {
+	max-height: 75px;
+	width: auto;
+	float: left;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+#settings, #close, #avicii, #close2 {
+	width: auto;
+	height: 30px;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#close2 {
+	display: none;
+	left: 10px;
+	z-index: 2;
+	top: 45px;
+}
+
+#close {
+	display: none;
+	z-index: 2;
+}
+
+#avicii {
+	left: 10px;
+	top: 45px;
+	width: 33px;
+	height: auto;
+}
+
+#menu {
+	height: 30px;
+	width: auto;
+	left: 15px;
+	top: 10px;
+	position: fixed;
+	cursor: pointer;
+}
+
+#opensettings {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	border: 2px solid #009688;
+	padding: 10px;
+	display: none;
+	background-color: white;
+	z-index: 2;
+	max-height: 700px;
+	max-width: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#openpreconfig {
+	left: 10px;
+	position: fixed;
+	top: 45px;
+	border: 2px solid #009688;
+	padding: 10px;
+	display: none;
+	max-height: 700px;
+	max-width: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: white;
+	z-index: 2;
+}
+
+p:hover {
+	background-color: #cccccc;
+	cursor: pointer;
+}
+
+h1, h2, h3 {
+	color: #009688;
+}
+
+h2, h3, h4, p {
+	font-family: Verdana, sans-serif;
+}
+
+#shortcut {
+	width: 5px;
+	height: 5px;
+	border-radius: 100%;
+	background-color: #dddddd;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
+
+#audioon, #audiooff {
+	position: fixed;
+	width: 25px;
+	height: auto;
+	top: 45px;
+	right: 10px;
+}
+
+#audiooff {
+	display: none;
+}

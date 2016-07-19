@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="eng">
+	<head>
+		<title>Connect4</title>
+		<meta name="theme-color" content="#ffc107"/>
+		<meta charset="utf-8"/>
+		<link type="text/css" rel="stylesheet" href="connect4.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+	</head>
+	
+	<body>
+		<div id="all">
+		<div id="load">Loading...</div>
+		<img id="board" src="http://cgi.csc.liv.ac.uk/~trp/Teaching/Entries/2013/10/21_COMP327_-_Practical_Assignment_1_2013_files/FIAL_Board.png"/>
+		<table>
+			<tr id="r1">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			
+			<tr id="r2">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			
+			<tr id="r3">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			
+			<tr id="r4">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			
+			<tr id="r5">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			
+			<tr id="r6">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			
+			<tr id="r7">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+		</table>
+		
+		<img class="column" id="c1" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		<img class="column" id="c2" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		<img class="column" id="c3" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		<img class="column" id="c4" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		<img class="column" id="c5" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		<img class="column" id="c6" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		<img class="column" id="c7" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		</div>
+		
+		<img id="settings" src="https://cdn3.iconfinder.com/data/icons/simple-files-1/128/Settings-128.png"/>
+		<img id="close" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		
+		<div id="opensettings">
+			<h1>Settings</h1>
+			
+			<h3>Customize</h3>
+				<h4>Custom names</h4>
+					<p id="n1">Player1 name</p>
+					<p id="n2">Player2 name</p>
+					<hr>
+				<h4>Custom imgs</h4>
+					<p id="i1">Player1 img</p>
+					<p id="i2">Player2 img</p>
+					<hr>
+				<h4>Preconfig</h4>
+					<p class="addconfig">Add Preconfig</p>
+					<p class="preconfig">Open Preconfig menu </p>
+		</div>
+		
+		<img id="avicii" class="preconfig" src="http://i1348.photobucket.com/albums/p737/therapismylife/AviciiLogo_zpsf62616e0.png"/>
+		<img id="close2" src="https://d30y9cdsu7xlg0.cloudfront.net/png/128143-200.png"/>
+		<div id="openpreconfig">
+			<h1>Preconfig<h1>
+				<h4>Add preconfig</h4>
+					<p class="addconfig">Wich's your preconfig?</p>
+					<hr>
+				<h4>Actual preconfig</h4>
+					<p class="getconfig">Get your preconfig</p>
+		</div>
+		<div id="shortcut"></div>
+		<a href="index.html"><img id="menu" src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png"/></a>
+		
+		<script src="connect4.js"></script>
+	</body>
+</html>
