@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var zoom 
-	if (window.innerWidth < window.innerHeight) {
+	if (window.innerWidth < (window.innerHeight * 2)) {
 		zoom = (window.innerWidth * 100 / 1280) + '%';
 	} else {
 		zoom = (window.innerHeight * 100 / 683) + '%';
