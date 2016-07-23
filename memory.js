@@ -181,7 +181,7 @@ $(document).ready(function(){
 	});
 
 	function win(classe){
-		$('body').delay('400').animate({'jakak': 'haan'}, 'fast', function() {alert('Very Well!'));
+		$('body').delay('400').animate({'jakak': 'haan'}, 'fast', function() {alert('Very Well!');
 		classe.attr('src', back);
 		
 		if (turn == 1) {
@@ -209,7 +209,7 @@ $(document).ready(function(){
 		} else {
 			$('#all > img').data('clicked', false);
 			click = 1;
-		}
+		}});
 	}
 	
 	function color () {
