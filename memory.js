@@ -181,7 +181,7 @@ $(document).ready(function(){
 	});
 
 	function win(classe){
-		alert('Very Well!');
+		$('body').delay('400').animate({'jakak': 'haan'}, 'fast', function() {alert('Very Well!')});
 		classe.attr('src', back);
 		
 		if (turn == 1) {
@@ -226,8 +226,8 @@ $(document).ready(function(){
 	}
 	
 	function nope() {
-		if (turn == 1) { alert ('Not The Same\nTurn of ' + player2); turn = 2;} 
-		else { alert ('Not The Same\nTurn of ' + player1); turn = 1;}
+		if (turn == 1) {turn = 2;} 
+		else {turn = 1;}
 		
 		color()
 		$('#all > img').attr('src', back); 
