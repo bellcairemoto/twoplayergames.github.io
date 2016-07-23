@@ -181,7 +181,7 @@ $(document).ready(function(){
 	});
 
 	function win(classe){
-		$('body').delay('400').animate({'jakak': 'haan'}, 'fast', function() {alert('Very Well!')});
+		$('body').delay('400').animate({'jakak': 'haan'}, 'fast', function() {alert('Very Well!'));
 		classe.attr('src', back);
 		
 		if (turn == 1) {
