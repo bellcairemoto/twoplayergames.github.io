@@ -185,16 +185,17 @@ $(document).ready(function(){
 		classe.attr('src', back);
 		
 		if (turn == 1) {
-			classe.animate({'left': '-100px', 'top': '20px', 'width': '30px', 'height': 'auto'});
+			classe.delay('500').animate({'left': '-100px', 'top': '20px', 'width': '30px', 'height': 'auto'});
 			card1 += 1;
 			$('#card1').html(card1);
 		} else {
-			classe.animate({'left': '520px', 'top': '20px', 'width': '30px', 'height': 'auto'});
+			classe.delay('500').animate({'left': '520px', 'top': '20px', 'width': '30px', 'height': 'auto'});
 			card2 += 1;
 			$('#card2').html(card2);
 		}
 		
 		if (card1 + card2 == 8) {
+			$('body').delay('500').animate({'jaja': 'juju'}, 'fast', function(){									
 			if (card1 > card2) {
 				alert (player1 + ' wins!\nClick Ok to reload the game.');
 				location.reload();
@@ -204,7 +205,7 @@ $(document).ready(function(){
 			} else {
 				alert (player2 + ' wins!\nClick Ok to reload the game.');
 				location.reload();
-			}
+			}});
 		} else {
 			$('#all > img').data('clicked', false);
 			click = 1;
@@ -226,13 +227,14 @@ $(document).ready(function(){
 	}
 	
 	function nope() {
+		$('body').delay('500').animate({'jiji': 'jojo'}, 'fast', function(){
 		if (turn == 1) {turn = 2;} 
 		else {turn = 1;}
-		
 		color()
 		$('#all > img').attr('src', back); 
 		$('#all > img').data('clicked', false); 
 		click = 1;
+		});
 	}
 	
 	$('#all > img').click(function(){
