@@ -171,10 +171,12 @@ img {
 	display: none;
 	left: 10px;
 	top: 45px;
+  z-index: 3;
 }
 
 #close {
 	display: none;
+  z-index: 3;
 }
 
 #avicii {
