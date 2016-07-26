@@ -159,7 +159,6 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				alert('Turn of ' + player2);
 				$('h1').html('Turn of ' + player2);
 				$('#user').attr('src', url2);
 				$('#all').css('transform', 'rotate(180deg)');
@@ -192,7 +191,6 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				alert('Turn of ' + player2);
 				$('#all').css('transform', 'rotate(180deg)');
 				$('#notallowed').css('top', '100px');
 				$('#left1').data('clicked', false);
@@ -227,7 +225,6 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				alert('Turn of ' + player2);
 				$('#all').css('transform', 'rotate(180deg)');
 				$('#notallowed').css('top', '100px');
 				$('#right1').data('clicked', false);
@@ -260,7 +257,6 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				alert('Turn of ' + player2);
 				$('#all').css('transform', 'rotate(180deg)');
 				$('#notallowed').css('top', '100px');
 				$('#right1').data('clicked', false);
@@ -303,7 +299,6 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				alert('Turn of ' + player1);
 				$('h1').html('Turn of ' + player1);
 				$('#user').attr('src', url1);
 				$('#all').css('transform', 'rotate(0deg)');
@@ -336,7 +331,6 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				alert('Turn of ' + player1);
 				$('#all').css('transform', 'rotate(0deg)');
 				$('#notallowed').css('top', '100px');
 				$('#left2').data('clicked', false);
@@ -371,7 +365,6 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				alert('Turn of ' + player1);
 				$('#all').css('transform', 'rotate(0deg)');
 				$('#notallowed').css('top', '100px');
 				$('#right2').data('clicked', false);
@@ -404,7 +397,6 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				alert('Turn of ' + player1);
 				$('#all').css('transform', 'rotate(0deg)');
 				$('#notallowed').css('top', '100px');
 				$('#right2').data('clicked', false);
