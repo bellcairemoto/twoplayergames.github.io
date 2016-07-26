@@ -19,9 +19,13 @@
 }
 
 img {
-	height: 300px;
-	width: auto;
 	cursor: pointer;
+}
+
+.hand {
+	width: 300px;
+	height: auto;
+	margin: 0px;
 }
 
 .up {
@@ -29,12 +33,18 @@ img {
 	top: 0px;
 	transform: rotate(180deg);
 	background: rgba( 255, 0, 0, 0.5);
+	padding: 0px;
+	height: 302px;
+	width: 604px;
 }
 
 .down {
 	position: absolute;
 	bottom: 0px;
 	background: rgba( 0, 0, 255, 0.5);
+	padding: 0px;
+	height: 302px;
+	width: 604px;
 }
 
 #inst {
