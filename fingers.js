@@ -419,6 +419,4 @@ $(document).ready(function(){
 			play1();
 		}
 	});
-	
-	alert('Before starting adapt zoom using Ctrl+ and Ctrl-');
 });
