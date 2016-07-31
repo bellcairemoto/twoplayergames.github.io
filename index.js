@@ -14,7 +14,6 @@ $(document).ready(function(){
 		zoom(100);
 	} else {
 		$('#contenidor').css('width', '250px');
-		$('.descript').css('zoom', (window.innerWidth * 100 / 720) + '%');
 		$('button') .css('zoom', '200%');
 		zoom(200);
 	}
