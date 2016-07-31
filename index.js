@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	alert (window.innerWidth + ' '+ window.innerHeight);
 	var zoom 
 	function zoom(x){
 		if (window.innerWidth < window.innerHeight) {
@@ -10,7 +9,7 @@ $(document).ready(function(){
 	$('body').css('zoom', zoom);
 	} 
 	
-	if (window.innerWidth > 800) {
+	if (window.innerWidth > 1000) {
 		$('#contenidor').css('width', '750px');
 		zoom(100);
 	} else {
