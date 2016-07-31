@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	alert (window.innerWidth);
 	var zoom 
 	function zoom(x){
 		if (window.innerWidth < window.innerHeight) {
