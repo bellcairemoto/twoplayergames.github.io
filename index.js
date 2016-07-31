@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	alert (window.innerWidth);
+	alert (window.innerWidth + ' '+ window.innerHeight);
 	var zoom 
 	function zoom(x){
 		if (window.innerWidth < window.innerHeight) {
