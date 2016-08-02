@@ -50,6 +50,7 @@ td:nth-child(7) {
 	bottom: 628px;
 	display: none;
 	border-radius: 100%;
+	border: 2px solid black;
 	
 	-webkit-border-radius: 100%;
 }
