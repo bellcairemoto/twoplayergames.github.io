@@ -86,13 +86,13 @@ h1 {
 #close2 {
 	display: none;
 	left: 10px;
-	z-index: 2;
+	z-index: 5;
 	top: 45px;
 }
 
 #close {
 	display: none;
-	z-index: 2;
+	z-index: 5;
 }
 
 #avicii {
