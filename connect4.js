@@ -13,6 +13,9 @@ $(document).ready(function(){
 	var url1 = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Red-circle.svg/1024px-Red-circle.svg.png'
 	var url2 = 'http://vignette4.wikia.nocookie.net/inciclopedia/images/a/a5/X.png/revision/latest?cb=20091125204252'
 	
+	var col = 'black';
+	var color = '2px solid black';
+	
 	var turn = 3;
 	
 	function url() {
@@ -71,6 +74,12 @@ $(document).ready(function(){
 		update();
 	}); 
 	
+	$('#col').click(function(){
+		col = prompt ('Write your color here');
+		color = '2px solid ' + col;
+		update();
+	});
+	
 	$('.preconfig').click(function(){
 		$('#openpreconfig').fadeIn();
 		$('.preconfig').fadeOut();
@@ -110,6 +119,8 @@ $(document).ready(function(){
 			player2 = config.substring(p1 + 1, p2) 
 			url1 = config.substring(p2 + 1, p3) 
 			url2 = config.substring(p3 + 1, p4) 
+			col = config.substring(p4 + 1, end)
+			color = '2px solid ' + col;
 			update();
 	}
 	
@@ -117,6 +128,7 @@ $(document).ready(function(){
 		$('.column').attr('src', url());
 		$('.' + player1 + '>img').attr('src', url1);
 		$('.' + player2 + '>img').attr('src', url2);
+		$('.column, .move').css('border', color);
 	}
 	
 /*---------------------------------------------------------------^---------^-------------------------------------------------------------------------------------------------------------------------
