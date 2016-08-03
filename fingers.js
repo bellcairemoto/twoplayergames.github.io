@@ -159,7 +159,7 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('#left2').ready(function(){
+				$('#left2').delay('500').animate({'haj': 'aja'}, function(){
 					$('h1').html('Turn of ' + player2);
 					$('#user').attr('src', url2);
 					$('#all').css('transform', 'rotate(180deg)');
