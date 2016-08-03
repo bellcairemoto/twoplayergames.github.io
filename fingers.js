@@ -159,7 +159,7 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('#left2').delay('500').animate({'haj': 'aja'}, function(){
+				$('body').delay('500').animate({'haj': 'aja'}, function(){
 					$('h1').html('Turn of ' + player2);
 					$('#user').attr('src', url2);
 					$('#all').css('transform', 'rotate(180deg)');
@@ -193,13 +193,15 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('#all').css('transform', 'rotate(180deg)');
-				$('#notallowed').css('top', '100px');
-				$('#left1').data('clicked', false);
-				$('#right2').data('clicked', false);
-				$('h1').html('Turn of ' + player2);
-				$('#user').attr('src', url2);
-				$('*').css('box-shadow', '0px 0px 0px');
+				$('body').delay('500').animate({'haj': 'aja'}, function(){
+					$('#all').css('transform', 'rotate(180deg)');
+					$('#notallowed').css('top', '100px');
+					$('#left1').data('clicked', false);
+					$('#right2').data('clicked', false);
+					$('h1').html('Turn of ' + player2);
+					$('#user').attr('src', url2);
+					$('*').css('box-shadow', '0px 0px 0px');
+				});
 			}
 			return;
 		}
@@ -227,13 +229,15 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('#all').css('transform', 'rotate(180deg)');
-				$('#notallowed').css('top', '100px');
-				$('#right1').data('clicked', false);
-				$('#left2').data('clicked', false);
-				$('h1').html('Turn of ' + player2);
-				$('#user').attr('src', url2);
-				$('*').css('box-shadow', '0px 0px 0px');
+				$('body').delay('500').animate({'haj': 'aja'}, function(){
+					$('#all').css('transform', 'rotate(180deg)');
+					$('#notallowed').css('top', '100px');
+					$('#right1').data('clicked', false);
+					$('#left2').data('clicked', false);
+					$('h1').html('Turn of ' + player2);
+					$('#user').attr('src', url2);
+					$('*').css('box-shadow', '0px 0px 0px');
+				});
 			}
 			return;
 		}
@@ -259,13 +263,15 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('#all').css('transform', 'rotate(180deg)');
-				$('#notallowed').css('top', '100px');
-				$('#right1').data('clicked', false);
-				$('#right2').data('clicked', false);
-				$('h1').html('Turn of ' + player2);
-				$('#user').attr('src', url2);
-				$('*').css('box-shadow', '0px 0px 0px');
+				$('body').delay('500').animate({'haj': 'aja'}, function(){
+					$('#all').css('transform', 'rotate(180deg)');
+					$('#notallowed').css('top', '100px');
+					$('#right1').data('clicked', false);
+					$('#right2').data('clicked', false);
+					$('h1').html('Turn of ' + player2);
+					$('#user').attr('src', url2);
+					$('*').css('box-shadow', '0px 0px 0px');
+				});
 			}
 			return;
 		}
@@ -301,13 +307,15 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('h1').html('Turn of ' + player1);
-				$('#user').attr('src', url1);
-				$('#all').css('transform', 'rotate(0deg)');
-				$('#notallowed').css('top', '100px');
-				$('#left1').data('clicked', false);
-				$('#left2').data('clicked', false);
-				$('*').css('box-shadow', '0px 0px 0px');
+				$('body').delay('500').animate({'haj': 'aja'}, function(){
+					$('h1').html('Turn of ' + player1);
+					$('#user').attr('src', url1);
+					$('#all').css('transform', 'rotate(0deg)');
+					$('#notallowed').css('top', '100px');
+					$('#left1').data('clicked', false);
+					$('#left2').data('clicked', false);
+					$('*').css('box-shadow', '0px 0px 0px');
+				});
 			}
 			return;
 		}
@@ -333,13 +341,15 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('#all').css('transform', 'rotate(0deg)');
-				$('#notallowed').css('top', '100px');
-				$('#left2').data('clicked', false);
-				$('#right1').data('clicked', false);
-				$('h1').html('Turn of ' + player1);
-				$('#user').attr('src', url1);
-				$('*').css('box-shadow', '0px 0px 0px');
+				$('body').delay('500').animate({'haj': 'aja'}, function(){
+					$('#all').css('transform', 'rotate(0deg)');
+					$('#notallowed').css('top', '100px');
+					$('#left2').data('clicked', false);
+					$('#right1').data('clicked', false);
+					$('h1').html('Turn of ' + player1);
+					$('#user').attr('src', url1);
+					$('*').css('box-shadow', '0px 0px 0px');
+				});
 			}
 			return;
 		}
@@ -367,13 +377,15 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('#all').css('transform', 'rotate(0deg)');
-				$('#notallowed').css('top', '100px');
-				$('#right2').data('clicked', false);
-				$('#left1').data('clicked', false);
-				$('h1').html('Turn of ' + player1);
-				$('#user').attr('src', url1);
-				$('*').css('box-shadow', '0px 0px 0px');
+				$('body').delay('500').animate({'haj': 'aja'}, function(){
+					$('#all').css('transform', 'rotate(0deg)');
+					$('#notallowed').css('top', '100px');
+					$('#right2').data('clicked', false);
+					$('#left1').data('clicked', false);
+					$('h1').html('Turn of ' + player1);
+					$('#user').attr('src', url1);
+					$('*').css('box-shadow', '0px 0px 0px');
+				});
 			}
 			return;
 		}
@@ -399,13 +411,15 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('#all').css('transform', 'rotate(0deg)');
-				$('#notallowed').css('top', '100px');
-				$('#right2').data('clicked', false);
-				$('#right1').data('clicked', false);
-				$('h1').html('Turn of ' + player1);
-				$('#user').attr('src', url1);
-				$('*').css('box-shadow', '0px 0px 0px');
+				$('body').delay('500').animate({'haj': 'aja'}, function(){
+					$('#all').css('transform', 'rotate(0deg)');
+					$('#notallowed').css('top', '100px');
+					$('#right2').data('clicked', false);
+					$('#right1').data('clicked', false);
+					$('h1').html('Turn of ' + player1);
+					$('#user').attr('src', url1);
+					$('*').css('box-shadow', '0px 0px 0px');
+				});
 			}
 			return;
 		}
