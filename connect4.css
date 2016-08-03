@@ -50,7 +50,6 @@ td:nth-child(7) {
 	bottom: 628px;
 	display: none;
 	border-radius: 100%;
-	border: 2px solid black;
 	
 	-webkit-border-radius: 100%;
 }
@@ -67,7 +66,6 @@ td:nth-child(7) {
 	animation-timing-function: linear;
 	z-index: 1;
 	border: 2px solid black;
-	border-radius: 100%;
 	
 	-webkit-animation-name: move;
 	-webkit-animation-duration: 0.5s;
