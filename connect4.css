@@ -66,6 +66,7 @@ td:nth-child(7) {
 	animation-iteration-count: 1;
 	animation-timing-function: linear;
 	z-index: 1;
+	border: 2px solid black;
 	border-radius: 100%;
 	
 	-webkit-animation-name: move;
