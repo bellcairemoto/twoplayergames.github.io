@@ -159,13 +159,15 @@ $(document).ready(function(){
 				$('h1').html('Game Over');
 				location.reload(true);
 			} else {
-				$('h1').html('Turn of ' + player2);
-				$('#user').attr('src', url2);
-				$('#all').css('transform', 'rotate(180deg)');
-				$('#notallowed').css('top', '100px');
-				$('#left1').data('clicked', false);
-				$('#left2').data('clicked', false);
-				$('*').css('box-shadow', '0px 0px 0px');
+				$('#left2').ready(function(){
+					$('h1').html('Turn of ' + player2);
+					$('#user').attr('src', url2);
+					$('#all').css('transform', 'rotate(180deg)');
+					$('#notallowed').css('top', '100px');
+					$('#left1').data('clicked', false);
+					$('#left2').data('clicked', false);
+					$('*').css('box-shadow', '0px 0px 0px');
+				});
 			}
 			return;
 		}
