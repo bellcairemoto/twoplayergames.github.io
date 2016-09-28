@@ -137,7 +137,7 @@ $(document).ready(function(){
 		}
 	}
 	
-	$('#num').click(function(){
+	$('.num').click(function(){
 		$('.num').css({'display': 'none', 'zoom': '100%', 'right': '+=100px'});
 		$('#dice').css('display', 'block');
 	});
