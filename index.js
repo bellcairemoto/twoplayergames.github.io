@@ -35,10 +35,15 @@ $(document).ready(function(){
 		$('#dconnect4').fadeIn();
 	});
 	
+	$('#goose').click(function(){
+		$('#dgoose').fadeIn();
+	});
+	
 	$('.close').click(function(){
 		$('#dfingers').fadeOut();
 		$('#dtictactoe').fadeOut();
 		$('#dmemory').fadeOut();
 		$('#dconnect4').fadeOut();
+		$('#dgoose').fadeOut();
 	});
 });
