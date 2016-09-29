@@ -14,13 +14,13 @@ $(document).ready(function(){
 	var player1 = 'Player1';
 	var player2 = 'Player2';
 	
-	function player(i) {
-		if (turn != 1) {
-			return player1;
-		} else {
-			return player2;
-		}
+	var zoom; 
+	if (window.innerWidth < window.innerHeight) {
+		zoom = (window.innerWidth * 100 / 1280) + '%';
+	} else {
+		zoom = (window.innerHeight * 100 / 683) + '%';
 	}
+	$('body').css('zoom', zoom);
 	
 	var l2 = '240px'; var b2 = '75px';
 	var l3 = '300px'; var b3 = '75px';
