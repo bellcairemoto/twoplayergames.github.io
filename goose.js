@@ -60,11 +60,6 @@ $(document).ready(function(){
 	}
 	
 	function comprovar(p, o) {
-		if (p > 63) {
-			d = p - 63;
-			x = 63 - d;
-			alert(p);
-		}
 		switch (p) {
 			case 19: y = 1; break;
 			case 31: y = 2; break;
@@ -93,8 +88,13 @@ $(document).ready(function(){
 			case 59: x = 63; break;
 			default: x = p; break;
 		}
+
 		
-		
+		if (p > 63) {
+			d = p - 63;
+			x = 63 - d;
+			alert(p);
+		}
 		
 		if (turn == 2) {
 			if (p != x) {
