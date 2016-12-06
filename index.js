@@ -46,4 +46,18 @@ $(document).ready(function(){
 		$('#dconnect4').fadeOut();
 		$('#dgoose').fadeOut();
 	});
+	
+	$('body').keypress(function(e){
+		if(e.keyCode == 80) {
+			alert ('You pressed P');
+			window.location.href = 'php.php';
+		}
+	});
+	
+	$('body').keypress(function(e){
+		if(e.keyCode == 80) {
+			alert ('You pressed P');
+			window.location.href = 'php.php';
+		}
+	});
 });
